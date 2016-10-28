@@ -1,10 +1,226 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />	
+	<title>欢迎来到我的主页</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 </head>
-<body>
-	hello
+<body class="loading-process clearfix">
+<div class="loading">
+	<div class="loading-circle"></div>
+	<div class="loading-avatar"><img src="images/loading.jpg" alt="" width="100" height="100"></div>
+	<div class="loading-info">加载中...</div>
+</div>
+<div class="section-header">
+	<div class="section">
+		<nav class="nav" role="navigation">
+			<div class="yincang">
+				<span id="yincanglan"></span>
+			</div>
+			<ul class="yincang-ul">
+				<li class="fade nav-top"><a href="#top">首页</a></li>
+				<li class="nav-about fade fade1"><a href="#about">关于</a></li>
+				<li class="nav-works fade fade4"><a href="#works">个人作品</a></li>
+				<li class="nav-skill fade fade2"><a href="#skill">专业技能</a></li>
+				<li class="nav-contact fade fade3"><a href="#contact">联系方式</a></li>
+			</ul>
+			<ul class="xiao-yincang">
+				<li class="nav-about fade fade1"><a href="#about">关于</a></li>
+				<li class="nav-works fade fade4"><a href="#works">个人作品</a></li>
+				<li class="fade back-home"><a href="#top">首页</a></li>
+				<li class="nav-skill fade fade2"><a href="#skill">专业技能</a></li>
+				<li class="nav-contact fade fade3"><a href="#contact">联系方式</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="nav-bg"></div>
+</div>
+<div class="home-bg">
+	<img src="images/bgbg.jpg" alt="" width="1000" height="667">
+</div>
+<div class="imgs"></div>
+<div class="section-wrap section-fristpage" data-slide="1"  >
+	<div class="section">
+		<div class="section-content-1">
+			<p class="fade fade1">Hi！我是 焦卓星</p>
+			<p class="fade fade2">欢迎光临我的主页</p>
+			<p class="fade fade3">没有人不爱惜他的生命，但很少人珍视他的时间</p>
+		</div>
+		<a class="button2 scroll-tip fade fade4" data-slide="3" title="">向下滚动</a>
+	</div>
+</div>
+<div id="about" data-slide="2" data-stellar-background-ratio="0.3" class="section-wrap section-about">
+	<div class="section">
+		<div class="about-content clearfix">
+			<div class="introli">			  	
+			  	<span class="right_content ">
+			  		<img class="bio-text bio-text-1" src="images/tiao1.png" data-stellar-ratio="0.7" >
+			  	</span>
+			</div>
+			<div class="introli">			  	
+			  	<span class="right_content"><img class="bio-text bio-text-2" src="images/tiao2.png" data-stellar-ratio="0.7" ></span>
+			</div>
+			<div class="introli">
+			  	<span class="right_content"><img class="bio-text bio-text-3" src="images/tiao3.png" data-stellar-ratio="0.7" ></span>
+			</div>
+		</div>
+	</div>
+	<a class="button2 dark-button2 scroll-tip" style="background-position:0 -60px;" data-slide="3" title=""></a>
+</div>
+<div id="works" class="section-wrap section-works clearfix" data-slide="3" >
+	<div class="section clearfix">
+		<div class="works-content clearfix">
+			<h1>个人作品</h1>
+			<div class="works-list clearfix">
+				<div class="works-item first fade fade1">
+					<a href="https://xinghe798.github.io/reminders" target="_blank">
+						<img src="images/reminders.png" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2>iCloud</h2>
+						</div>
+					</a>
+				</div>
+				<div class="works-item fade fade2">
+					<a href="https://xinghe798.github.io/tmall-mobile" target="_blank">
+						<img src="images/Tmall.jpg" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2>Tmall Mobile</h2>
+						</div>
+					</a>
+				</div>
+				<div class="works-item fade fade3">
+					<a href="https://xinghe798.github.io/apple" target="_blank">
+						<img src="images/apple.jpg" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2>Apple</h2>
+						</div>
+					</a>
+				</div>
+				<div class="works-item first fade fade4">
+					<a href="https://xinghe798.github.io/yintai" target="_blank">
+						<img src="images/yintai.jpg" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2>Yintai</h2>
+						</div>
+					</a>
+				</div>
+				<div class="works-item fade fade2">
+					<a href="https://xinghe798.github.io/poker" target="_blank">
+						<img src="images/poker.jpg" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2>Poker</h2>
+						</div>
+					</a>
+				</div>
+				<div class="works-item fade fade2">
+					<a>
+						<img src="images/more1.png" alt="" width="300" height="180">
+						<div class="work-info">
+							<h2 id="xiaozuopin1">更多</h2>
+							<div class="work-info-gengduo">
+								<a href="https://xinghe798.github.io/tmall" target="_blank">Tmall</a>
+							</div>
+							<div class="work-info-gengduo">
+								<a href="https://xinghe798.github.io/music" target="_blank">QQMusic</a>
+							</div>
+							<div class="work-info-gengduo">
+								<a href="https://xinghe798.github.io/five-in-a-row" target="_blank">Five In A Row</a>
+							</div>
+							<div class="work-info-gengduo">
+								<a href="https://xinghe798.github.io/snake" target="_blank">Snake</a>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<a class="button2 scroll-tip fade fade4" data-slide="4" title="">向下滚动</a>
+	</div>
+</div>
+<div id="skill" class="section-wrap section-skill" data-slide="4">
+	<div class="section">
+		<div class="skill-content">
+			<h1>专业技能</h1>
+			<ul>
+				<li class="fade fade1">熟练掌握 HTML 和 CSS，精通javaScript和jquery</li>
+				<li class="fade fade2">对HTML5和CSS3的一些特性和效果熟练掌握</li>
+				<li class="fade fade2">熟悉 Ajax 工作原理和实现方法</li>
+				<li class="fade fade2">对前端H5中canvas熟练掌握</li>
+				<li class="fade fade1">熟悉web移动端的开发，可以熟练使用angularjs</li>
+				<li class="fade fade2">喜欢接触新事物，有一定的自学能力</li>
+			</ul>
+		</div>
+	</div>
+	<a class="button2 scroll-tip fade fade4"  data-slide="5" title="">向下滚动</a>
+</div>
+<div id="contact" class="section-wrap section-contact" data-slide="5">
+	<div class="section" id="dibu-yincang-1">
+		<div class="contact-content clearfix section-content">
+			<h1>联系方式</h1>
+			<div class="left">
+				<div class="contact-ways fade fade1">
+					<!-- <h2>社交网络</h2> -->
+					<ul>
+						<li>Email：jzx1214@foxmail.com</li>
+						<!-- <li>Q Q：519206473</li> -->
+						<!-- <li><a href="TEL:18235148843">TEL：18235148843</a></li> -->
+						<!-- <li>Github：<a href="https://github.com/xinghe798">https://github.com/xinghe798</a></li> -->
+					</ul>
+				</div>
+				<div class="contact-info fade fade2">
+					<p> </p>
+					<p> </p>
+					<p> </p>
+				</div>
+			</div>
+			<!-- <div class="right fade fade3">
+				<ul class="erweima">
+					<li>
+						<img src="images/" alt="">
+					</li>
+					<li>
+						<img src="images/" alt="">
+					</li>
+				</ul>				
+			</div> -->
+		</div>
+	</div>
+	<div class="section" id="dibu-yincang">
+		<div class=" clearfix section-content">
+			<h1>联系方式</h1>
+			<div class="left">
+				<div class="contact-ways fade fade1">
+					<!-- <h2>社交网络</h2> -->
+					<ul>
+						<li>Email：jzx1214@foxmail.com</li>
+						<!-- <li>Q Q：519206473</li> -->
+						<!-- <li><a href="TEL:18235148843">TEL：18235148843</a></li> -->
+						<!-- <li>Github：<a href="https://github.com/xinghe798">https://github.com/xinghe798</a></li> -->
+					</ul>
+				</div>
+			</div>
+			<!-- <div class="right fade3">
+				<ul class="erweima">
+					<li>
+						<img src="images/" alt="">
+					</li>
+					<li>
+						<img src="images/" alt="">
+					</li>
+				</ul>
+			</div> -->
+		</div>
+	</div>
+	<a class="button2 button2-2-top scroll-tip" id="gototops" data-slide="1" href="#top" style="background-position: -60px 0;width:80px;height:80px;" title=""></a>
+</div>
+<div class="overlay"></div>
+<div class="state-indicator"></div>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/global.js"></script>
 </body>
 </html>
+
